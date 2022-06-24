@@ -36,11 +36,11 @@ Why version 2?
 A use case explaining the differences between the 2 versions may help
 ```
 tests/
-   - 100_UI_testing/
+   - UI_testing/
          - Login.robot
          - Checkout.robot
-   - 200_API_testing/
-         - 201_Catalog/
+   - API_testing/
+         - Catalog/
             - Catalog.robot
             - Categories.robot
             - Images.robot
