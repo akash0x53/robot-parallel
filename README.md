@@ -28,10 +28,6 @@ How to use SplitSuite_v2.py?
 
 ```
 bd@testing:~/robot$ robot --dryrun --prerunmodifier SplitSuite.py:3:1:4 tests/
-where:
-- 3: the number of desired splits
-- 1: the specific split (out of 3) to run now
-- 4: max depth level of the "test/" directory the splitter must go through before performing the split
 ```
 This script takes three arguments, “number of groups”, which group do you want execute and the max level of depth the splitter will go through in your tests folder before performing the splitter.
 
