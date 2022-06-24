@@ -50,4 +50,5 @@ tests/
 ```
 In the above example, the script version 1 would bring to 2 splits, where the first one would contain Login.robot and Checkout.robot, while the second split would contain a lot more suites to run.
 
-The second version of the script lets you flatten the tree structure to a specified level. Let's say level 2. The script will take all the single .robot files and after that it will splits the suites into 2 runs.
+The second version of the script lets you flatten the tree structure to a specified level. Let's say level 2. The script will take all the single .robot files and after that it will splits the suites into 2 runs. 
+The 2 splits will have 4 suites each.
